@@ -65,7 +65,9 @@ In my example above, the <earliercommit> is the commit with the message of *Init
 As Sarang suggested it's helpful to prepare your commands in advance, so here they are:
 
 `git rebase -i <earliercommit>` becomes `git rebase -i 40fb81c2954bf127a0b5b5d99fe171c1841dbf1f`
+
 `git commit --amend --author="Andrew Kearney <andrew.kearney@fx.sgx.com>" --no-edit`
+
 `git rebase --continue`
 
 When I run that command, I get this in the terminal:
